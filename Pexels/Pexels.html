@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+.box{
+background:url("https://images.pexels.com/photos/28578406/pexels-photo-28578406/free-photo-of-serene-landscape-with-lone-tree-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+height: 650px;
+width: 100%;
+background-position: 5px;
+background-image: blur(2px);
+
+}
+.logo{
+   
+    display: flex;
+    position:sticky
+}
+.logos{
+    height: 70px;
+    margin-left: 60px;
+    margin-top: 15px;
+    
+}
+.p{
+ font-family:plusjakartasans,-apple-system, blinkmacsystemfont, Segoe UI, Roboto, Oxygen, Cantarell, Helvetica Neue, Ubuntu, sans-serif;
+ font-size:30px;
+ 
+margin-left: 30px;
+}
+.right-nav{
+    display: flex;
+    margin-left: 50%;
+    font-size: 20px;
+    font-family:plusjakartasans,-apple-system, blinkmacsystemfont, Segoe UI, Roboto, Oxygen, Cantarell, Helvetica Neue, Ubuntu, sans-serif; 
+}
+.right-nav button:hover{
+    background-color: rgb(59, 59, 238);
+    
+}
+.upload{
+    margin-top: 10px;
+}
+.Explore{
+    padding-right: 20px;
+    margin-top: 5px;
+}
+.License{
+    padding-right: 30px;
+    margin-top: 10px;
+}
+.dot{
+    font-size: 30px;
+    margin-left: 40px;
+    
+    margin-top: 0px;
+}
+.button{
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.middlebox{
+    margin-top: 200px;
+    
+    text-align: center;
+    
+}
+
+.p1{
+    font-size:38px;
+    font-family: plusjakartasans,-apple-system, blinkmacsystemfont, Segoe UI, Roboto, Oxygen, Cantarell, Helvetica Neue, Ubuntu, sans-serif;
+    color:rgb(25, 119, 119);
+}
+.searchs{
+    margin-left: 80px;
+    padding-left: 70px;
+    height: 50px;
+    width: 550px;
+font-size: 30px;
+border-radius: 15px;
+}
+.talakobutton{
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+   
+}
+.homes{
+    font-size: 20px;
+}
+.videos{
+    padding-left: 50px;
+    font-size: 20px;
+}
+.Leaderboard{
+    padding-left: 50px;
+    font-size: 20px;
+}
+.Challenge{
+    padding-left: 50px;
+    font-size: 20px;
+}
+.stock{
+    font-size: 30px;
+    
+}
+.talakoo{
+    display: flex;
+    
+}
+.Trendings{
+    font-size: 20px;
+    margin-left: 930%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.Trendings:hover{
+    background-color: rgb(25, 119, 119);
+    cursor: pointer;
+
+}
+    
+.photo{
+    height: 300px;
+    width: 350px;
+}
+.pic2{
+    height: 300px;
+    width: 400px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.photobox{
+    display: flex;
+    margin: 10px;
+}
+.pic3{
+    height: 300px;
+    width: 280px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.pic4{
+    height: 300px;
+    width: 350px;
+    margin-left: 10px;
+    cursor: pointer; 
+}
+.pic5{
+    height: 300px;
+    width: 400px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.pic6{
+    height: 300px;
+    width: 280px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.Freestock pre{
+    font-size: 30px;
+    border: 1px solid;
+    background-color: rgb(40, 182, 182);
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.img1{
+    margin-left: 30px;
+    cursor: pointer;
+    
+}
+
+.Explore:hover{
+    color: rgb(23, 118, 118);
+    cursor: pointer;
+}
+.uploaded:hover{
+    color: rgb(23, 118, 118);
+    cursor: pointer;
+}
+.Licenced:hover{
+    color: rgb(23, 118, 118);
+    cursor: pointer;
+}
+.photoboxs{
+    display: flex;
+    
+}
+.footer {
+  background-color: rgb(47, 107, 107);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-social {
+  flex: 1 1 300px;
+  margin: 10px;
+}
+
+.footer h3,
+.footer h4 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer p {
+  color: #aaa;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #00bcd4;
+}
+
+.footer-social .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-social .social-icons a:hover {
+  color: #00bcd4;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: left;
+  }
+}
+ </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="logo">
+<img src="/pexels logo.jpg" alt="" class="logos">
+<p class="p">PEXELS</p>
+            
+            <div class="right-nav">
+                <div class="Explore">
+                    <p class="Explore">Explore</p>
+                </div>
+                <div class="Licenced">
+                    <p class="License">License</p>
+                </div>
+                <div class="uploaded">
+                    <p class="upload">Upload</p>
+                </div>
+                <div class="dots">
+                    <p class="dot">...</p>
+                </div>
+                <div class="but">
+                    <button class="button">JOIN</button>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="middlebox"> 
+            <div class="content">
+                
+                    <pre class="p1">            The best free stock photos, royalty free 
+       images & videos shared by creators.</pre>
+            </div>
+            <div class="serarch">
+<input type="search" placeholder="Search for free photos" class="searchs">
+            </div>
+            
+            </div>
+             </div>
+        
+<div class="talakocontent">
+<div class="talakobutton"> 
+    <div class="homes">
+        <p class="home">Home</p>
+    </div>
+    <div class="videos">
+        <p class="video">Video</p>
+    </div>
+    <div class="leaderboards">
+        <p class="Leaderboard">Leaderboard</p>
+    </div>
+    <div class="cahllenges">
+        <p class="Challenge">Challenge</p>
+    </div>
+</div>
+<div class="talakoo">
+<div class="Freestock">
+    <pre>Free Stock Photo</pre>
+</div>
+
+<div class="trending">
+    <button class="Trendings">Trending</button></div>
+</div>
+<div class="photobox">
+    <div class="img1"><img src="./pexels-itsbrunoagain-29288524.jpg" alt="" class="photo"></div>
+    <div>
+        <img src="./pexels-leventsimsek-29087116.jpg" alt="" class="pic2">
+    </div>
+    <div>
+        <img src="./pexels-qhung999-29039042.jpg" alt="" class="pic3">
+    </div>
+   
+
+</div>
+</div>
+<div class="photoboxs">
+    <div class="img1"><img src="./pexels-shahin-mren-92379627-29130265.jpg" alt="" class="pic4"></div>
+    <div>
+        <img src="./pexels-thalittlemarc-28835857.jpg" alt="" class="pic5">
+    </div>
+    <div>
+        <img src="./pexels-zandatsu-28143747.jpg" alt="" class="pic6">
+    </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-about">
+            <h3>PEXELS</h3>
+            <p>Your go-to place for amazing articles, tutorials, and insights. Stay inspired!</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="#" >Facebook</a>
+              <a href="#" >Twitter</a>
+              <a href="#" >Instagram</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 PEXELS. All rights reserved.</p>
+        </div>
+      </footer>
+</body>
+</html>
